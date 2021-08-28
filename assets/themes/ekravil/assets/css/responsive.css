@@ -76,9 +76,23 @@
 	.popup {
 		width: 70%;
 	}
+
+    .nav-tabs.nav-justified {
+        font-size: 11px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        position: absolute;
+        margin-top: -61px;
+        max-width: 600px;
+    }
 }
 
 @media screen and (min-width: 768px){
+
+
+    
+
 	.navbar-nav.navbar-right:last-child {
 		margin-right: 0; 
 	}

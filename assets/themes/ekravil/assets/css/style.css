@@ -451,13 +451,17 @@ label {
 	margin-top: 19px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-		-ms-border-radius: 4px;
-		 -o-border-radius: 4px;
-			border-radius: 4px;
-    background-color: #f77723;
-    color: #fff !important;
-    margin-left: 15px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #ffffff !important;
+	color: #444 !important;
+	margin-left: 15px;
+}
+
+.signin:hover {
+	color:#051b48 !important;
 }
 
 .signup, .signout, .submit-property{
@@ -471,6 +475,12 @@ label {
 		-ms-border-radius: 4px;
 		 -o-border-radius: 4px;
 			border-radius: 4px;
+}
+
+.submit-property:hover {
+	color:#fff !important;
+	border: 1px solid #051b48;
+	background-color: #051b48 !important;
 }
 
 .signout{
@@ -899,7 +909,7 @@ select::-ms-expand{
 #service{
 	width: 100%;
 	padding: 60px 0;
-    background: #f9f9f9 !important;
+    background: #00164414 !important;
     background-position: bottom !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -1728,6 +1738,25 @@ select::-ms-expand{
 	max-width: none;
 }
 
+
+.menu-primary-container .active {
+
+    padding: 12px 12px 9px !important;
+    margin-top: 19px;
+    border: 1px solid #484848;
+    margin-left: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.menu-primary-container .active:hover {
+    color: #fff !important;
+    background-color: #011745 !important;
+    border: 1px solid #011745;
+}
 
 
 /* 
@@ -2558,7 +2587,7 @@ select::-ms-expand{
     
     cursor: pointer;
     color: #FFF;
-    background-color: rgb(216, 36, 96);
+    background-color: rgb(247 119 35);
     -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.2);
     -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.2);
     box-shadow: inset 0 -2px 0 rgba(0,0,0,0.2);
@@ -2914,7 +2943,7 @@ article .agency-header, article .agent-header {
 }
 
 article .agency-thumbnail, article .agent-thumbnail {
-    background-color: #f9f9f9;
+    background-color: #00164414;
     padding: 30px 0px;
     text-align: center;
 }
@@ -3233,7 +3262,6 @@ p.cmb2-metabox-description {
 
 #footer .widget > ul > li > a::before,
 #footer .widget ul > li > a::before{
-	content: '\f0a4';
 	font-family: 'FontAwesome';
 	font-size: 15px;
 	font-weight: 400;
@@ -3244,7 +3272,7 @@ p.cmb2-metabox-description {
 #footer .widget > ul > li > a:focus,
 #footer .widget ul > li > a:hover,
 #footer .widget ul > li > a:focus{
-	color: #82b440;
+	color: #f77723;
 }
 
 #footer .widget.widget_recent_comments > ul > li > a,
@@ -3596,13 +3624,13 @@ p.cmb2-metabox-description {
 .contact-info .inner .social-icon-three a{
 	font-size:16px;
 	margin:0px 2px;
-    width: 36px;
-    height: 36px;
-    border: 2px solid #ec94b1;
-    border-radius: 100%;
-    padding: 3px;
-    display: inline-block;
-    color: #ea6c96;
+	width: 36px;
+	height: 36px;
+	border: 2px solid #faa123;
+	border-radius: 100%;
+	padding: 3px;
+	display: inline-block;
+	color: #faa123;
 }
 
 /*contact Form Section*/
@@ -3834,7 +3862,7 @@ table {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background: #f9f9f9;
+	background: #00164414;
 	border-collapse: separate;
 }
 
@@ -4312,6 +4340,8 @@ table tbody tr:nth-child(even) {
     background-color: #f77723;
     z-index: 100;
 }
+
+
 .nav-tabs.nav-justified {
     padding-right: 15px;
     padding-left: 15px;
@@ -4320,6 +4350,9 @@ table tbody tr:nth-child(even) {
     margin-top: -68px;
     max-width: 600px;
 }
+
+
+
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
     border: none;
     background: #fff; 
@@ -4421,7 +4454,7 @@ ul {
 .property-slider .carousel-inner .item figure figcaption .slider-details {
     width: 500px;
     background: #fff;
-    padding: 25px;
+    padding: 25px 25px 50px 25px;
     position: relative;
 }
 
@@ -4446,7 +4479,7 @@ color: #323232;
     border-radius: 1px;
     line-height: normal;
     position: relative;
-    float: left;
+    float: right;
     text-transform: uppercase;
 }
 
