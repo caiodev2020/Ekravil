@@ -60,10 +60,10 @@ body{
 	background: #9C27B0; 
 }
 
-::selection { 
-	color: #fff; 
-	text-shadow: none; 
-	background: #9C27B0; 
+::selection {
+	color: #fff;
+	text-shadow: none;
+	background: #f77723;
 }
 
 
@@ -218,13 +218,14 @@ label {
 .topbar-nav > li > a{
 	display: block;
 	padding: 7px 12px;
-    color: #fff;
-    font-size: 14px;
+	color: #fff;
+	font-size: 14px;
 	background-color: transparent;
+	text-decoration: none;
 }
 
 .topbar-nav > li > a:hover{
-	background: #1b1d2a;
+	background: #f77723;
 }
 
 .topbar-nav > .active > a,
@@ -456,7 +457,7 @@ label {
 	-o-border-radius: 4px;
 	border-radius: 4px;
 	background-color: #ffffff !important;
-	color: #444 !important;
+	color: #f77723 !important;
 	margin-left: 15px;
 }
 
@@ -1094,7 +1095,7 @@ select::-ms-expand{
 
 .widget .widgettitle{
 	position: relative;
-	font-size: 23px;
+	font-size: 40px;
 	line-height: 50px;
 	margin-bottom: 40px;
 	display: block;
@@ -1105,8 +1106,9 @@ select::-ms-expand{
 }
 
 .widget .widgettitle small {
+    padding-top: 20px;
     display: block;
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -5358,7 +5360,7 @@ figure {
 }
 
 .social-links-icon li a:hover {
-    background: #d8085f;
+    background: #f77723;
     color: #fff !important;
 }
 
@@ -5505,7 +5507,7 @@ figure {
 
 
 .arrow-ribbon {
-    background-image: linear-gradient(to right, #f37424 , #f77723);
+    background-image: linear-gradient(to right, #f77723 , #f77723);
     color: #FFF;
     padding: 4px 10px;
     position: absolute;
@@ -5522,7 +5524,7 @@ figure {
     content: "";
     right: -12px;
     border-top: 15px solid transparent;
-    border-left: 12px solid rgb(243 116 36);
+    border-left: 12px solid #f77723;
     border-bottom: 15px solid transparent;
     width: 0;
 }
