@@ -431,6 +431,14 @@
                       </li>
                     </ul>
                   </li>
+<li id="menu-item-800" class="
+                                      menu-item
+                                      menu-item-type-post_type
+                                      menu-item-object-page menu-item-800
+                                    ">
+  <a title="Home" href="projectos.html">Projectos</a>
+</li>
+
                   <li
                     id="menu-item-748"
                     class="
@@ -557,7 +565,7 @@
                     action="?"
                     id="sort-form"
                   >
-                    <span>Order por : </span>
+                    <span>Ordenar por : </span>
                     <div class="form-group">
                       <label class="sr-only" for="sortby"> -- </label>
                       <select class="form-control" name="filter-sort-by">
@@ -883,7 +891,7 @@
 
                         
                         <div class="arrow-ribbon">
-                          <span class="property-badge">Sale</span>
+                          <span class="property-badge">Arrendamento</span>
                         </div>
                       </div>
                       <div class="property-text">
@@ -958,7 +966,7 @@
                           <span class="property-badge">Reduced</span>
                         </div>
                         <div class="arrow-ribbon">
-                          <span class="property-badge">Sale</span>
+                          <span class="property-badge">Arrendamento</span>
                         </div>
                       </div>
                       <div class="property-text">
@@ -1031,7 +1039,7 @@
 
                         
                         <div class="arrow-ribbon">
-                          <span class="property-badge">Sale</span>
+                          <span class="property-badge">Arrendamento</span>
                         </div>
                       </div>
                       <div class="property-text">
@@ -1161,7 +1169,7 @@
 
             <div class="sidebar col-sm-4 col-md-3">
               <div id="filter_widget-1" class="widget widget_filter_widget">
-                <div class="widget-header"><h3>Search Properties</h3></div>
+                <div class="widget-header"><h3>Pesquisar</h3></div>
                 <form
                   method="get"
                   action=""
@@ -1169,7 +1177,7 @@
                   <div class="field col-md-3 col-sm-3 col-xs-6">
                     <div class="form-group">
                       <label for="filter_widget-1_property_title"
-                        >Property title</label
+                        >Provincia</label
                       >
 
                       <input
@@ -1185,14 +1193,14 @@
                   <!-- /.col-md-3 -->
                   <div class="field col-md-3 col-sm-3 col-xs-12">
                     <div class="form-group">
-                      <label for="filter_widget-1_location">Location</label>
+                      <label for="filter_widget-1_location">Municipio</label>
 
                       <select
                         class="form-control"
                         name="filter-location"
                         id="filter_widget-1_location"
                       >
-                        <option value="">All locations</option>
+                        <option value="">Qualquer</option>
 
                         <option value="39">England</option>
 
@@ -1274,7 +1282,7 @@
                   <div class="field col-md-3 col-sm-3 col-xs-12">
                     <div class="form-group">
                       <label for="filter_widget-1_property_type"
-                        >Property type</label
+                        >Tipo da casa</label
                       >
 
                       <select
@@ -1282,7 +1290,7 @@
                         name="filter-property-type"
                         id="filter_widget-1_property_type"
                       >
-                        <option value="">All property types</option>
+                        <option value="">Todo</option>
 
                         <option value="20">Apartment</option>
 
@@ -1298,52 +1306,18 @@
                     <!-- /.form-group -->
                   </div>
                   <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_amenity">Amenity</label>
-
-                      <select
-                        class="form-control"
-                        name="filter-amenity"
-                        id="filter_widget-1_amenity"
-                      >
-                        <option value="">All amenities</option>
-
-                        <option value="18">Air conditioning</option>
-                        <option value="22">Balcony</option>
-                        <option value="23">Bedding</option>
-                        <option value="27">Cable TV</option>
-                        <option value="29">Cleaning after exit</option>
-                        <option value="30">Cofee pot</option>
-                        <option value="31">Computer</option>
-                        <option value="33">Cot</option>
-                        <option value="36">Dishwasher</option>
-                        <option value="37">DVD</option>
-                        <option value="40">Fan</option>
-                        <option value="42">Fridge</option>
-                        <option value="43">Grill</option>
-                        <option value="44">Hairdryer</option>
-                        <option value="46">Heating</option>
-                        <option value="47">Hi-fi</option>
-                        <option value="50">Internet</option>
-                        <option value="51">Iron</option>
-                        <option value="54">Juicer</option>
-                        <option value="55">Lift</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
+                  
                   <!-- /.col-md-3 -->
                   <div class="field col-md-3 col-sm-3 col-xs-12">
                     <div class="form-group">
-                      <label for="filter_widget-1_status">Status</label>
+                      <label for="filter_widget-1_status">Estado da casa</label>
 
                       <select
                         class="form-control"
                         name="filter-status"
                         id="filter_widget-1_status"
                       >
-                        <option value="">All statuses</option>
+                        <option value=""></option>
 
                         <option value="21">Available</option>
                         <option value="62">Arrendamento Agreed</option>
@@ -1353,320 +1327,12 @@
                     </div>
                     <!-- /.form-group -->
                   </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_status">Contract</label>
-
-                      <select
-                        class="form-control"
-                        name="filter-contract"
-                        id="filter_widget-1_status"
-                      >
-                        <option value="">All contracts</option>
-                        <option value="SALE">Sale</option>
-                        <option value="RENT">Arrendamento</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-12">
-                    <div class="form-group">
-                      <label for="filter_widget-1_status_">Material</label>
-
-                      <select
-                        class="form-control"
-                        name="filter-material"
-                        id="filter_widget-1_status_"
-                      >
-                        <option value="">All materials</option>
-
-                        <option value="24">Block</option>
-                        <option value="25">Brick</option>
-                        <option value="57">Mixed</option>
-                        <option value="61">Prefab</option>
-                        <option value="69">Stone</option>
-                        <option value="75">Wood</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_price_from">Price from</label>
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-price-from"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_price_from"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_price_to">Price to</label>
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-price-to"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_price_to"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1-rooms">Quartos</label>
-
-                      <select
-                        name="filter-rooms"
-                        id="filter_widget-1-rooms"
-                        class="form-control"
-                      >
-                        <option value="">Any</option>
-
-                        <option value="1">1+</option>
-                        <option value="2">2+</option>
-                        <option value="3">3+</option>
-                        <option value="4">4+</option>
-                        <option value="5">5+</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_baths_">Quartoss</label>
-
-                      <select
-                        name="filter-baths"
-                        id="filter_widget-1_baths_"
-                        class="form-control"
-                      >
-                        <option value="">Any</option>
-
-                        <option value="1">1+</option>
-                        <option value="2">2+</option>
-                        <option value="3">3+</option>
-                        <option value="4">4+</option>
-                        <option value="5">5+</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_beds">Beds</label>
-
-                      <select
-                        name="filter-beds"
-                        id="filter_widget-1_beds"
-                        class="form-control"
-                      >
-                        <option value="">Any</option>
-
-                        <option value="1">1+</option>
-                        <option value="2">2+</option>
-                        <option value="3">3+</option>
-                        <option value="4">4+</option>
-                        <option value="5">5+</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_year_built">Year built</label>
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-year-built"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_year_built"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_home_area_from"
-                        >Home area from</label
-                      >
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-home-area-from"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_home_area_from"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
+                
                   <!-- /.col-md-3 -->
 
                   <div class="field col-md-3 col-sm-3 col-xs-6">
                     <div class="form-group">
-                      <label for="filter_widget-1_home_area_to"
-                        >Home area to</label
-                      >
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-home-area-to"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_home_area_to"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_lot_area_from"
-                        >Lot area from</label
-                      >
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-lot-area-from"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_lot_area_from"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_lot_area_to"
-                        >Lot area to</label
-                      >
-
-                      <input
-                        type="number"
-                        min="0"
-                        name="filter-lot-area-to"
-                        class="form-control"
-                        value=""
-                        id="filter_widget-1_lot_area_to"
-                      />
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <!-- GARAGES -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="filter_widget-1_garages">Garagem</label>
-
-                      <select
-                        name="filter-garages"
-                        id="filter_widget-1_garages"
-                        class="form-control"
-                      >
-                        <option value="">Any</option>
-
-                        <option value="1">1+</option>
-                        <option value="2">2+</option>
-                        <option value="3">3+</option>
-                        <option value="4">4+</option>
-                        <option value="5">5+</option>
-                      </select>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <div class="checkbox">
-                        <input
-                          type="checkbox"
-                          name="filter-featured"
-                          id="filter_widget-1_featured"
-                        />
-
-                        <label for="filter_widget-1_featured"> Featured </label>
-                      </div>
-                      <!-- /.checkbox -->
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <div class="checkbox">
-                        <input
-                          type="checkbox"
-                          name="filter-reduced"
-                          id="filter_widget-1_reduced"
-                        />
-
-                        <label for="filter_widget-1_reduced"> Reduced </label>
-                      </div>
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <div class="checkbox">
-                        <input
-                          type="checkbox"
-                          name="filter-sticky"
-                          id="filter_widget-1_sticky"
-                        />
-
-                        <label for="filter_widget-1_sticky"> TOP </label>
-                      </div>
-                      <!-- /.checkbox -->
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <div class="checkbox">
-                        <input
-                          type="checkbox"
-                          name="filter-sold"
-                          id="filter_widget-1_sold"
-                        />
-
-                        <label for="filter_widget-1_sold"> Sold </label>
-                      </div>
-                      <!-- /.checkbox -->
-                    </div>
-                    <!-- /.form-group -->
-                  </div>
-                  <!-- /.col-md-3 -->
-
-                  <div class="field col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <button class="btn btn-success btn-block">Search</button>
+                      <button class="btn btn-success btn-block">Pesquisar</button>
                     </div>
                     <!-- /.form-group -->
                   </div>
